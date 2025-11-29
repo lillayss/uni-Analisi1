@@ -1,4 +1,5 @@
-	$$ f:\quad[a,b] \longrightarrow \mathbb{R} $$
+	$$f:\quad[a,b] \longrightarrow \mathbb{R}$$
+	
 E' una funzione __qualsiasi__ limitata
 $$ \exists\: M \geq 0\:t.c \quad|f(x)|\leq M\quad\forall x \in [a,b]$$ 
 
@@ -76,7 +77,7 @@ Raccolgo i fattori comuni
 $$\underline{S_{n+1}} = \sum_{k=0}^{2^{n}-1} (a_{2k}^{(n+1)} +a_{2k+1}^{(n+1)})(\frac{b-a}{2^{n+1}})  $$
 Scrivo $2^{n+1}$ come $2^{n} * 2$ e lo moltiplico per il termine raccolto
 $$\underline{S_{n+1}} = \sum_{k=0}^{2^{n}-1} \frac{(a_{2k}^{(n+1)} +a_{2k+1}^{(n+1)})}{2}(\frac{b-a}{2^{n}})$$
-Stando alla disuguaglianza di prima, $\frac{(a_{2k}^{(n+1)} +a_{2k+1}^{(n+1)})}{2}$ e' esattamente $a_{k}^{(n)}$
+Stando alla disuguaglianza di prima, $\frac{(a_{2k}^{(n+1)} +a_{2k+1}^{(n+1)})}{2}$ e' maggiore o uguale di $a_{k}^{(n)}$
 
 quindi
 $$\underline{S_{n+1}} \geq \sum_{k=0}^{2^{n}-1} a_{k}^{(n)}(\frac{b-a}{2^{n}})$$
@@ -84,3 +85,4 @@ allora e' vero che
 $$\underline{S_{n+1}} \geq \underline{S_{n}}$$
 quindi $\underline{S_{n}}$ e' monotona crescente
 
+Da aggiungere definizione di intergrale di Reinmann
